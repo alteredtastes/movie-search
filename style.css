@@ -1,0 +1,44 @@
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+.searchBar {
+}
+
+input.searchField {
+  text-align: center;
+}
+
+.picDiv {
+  margin-top: 50px;
+  max-width: 475px;
+}
+
+.moviePic {
+  max-width: 100%;
+}
+
+.movieRow {
+  height: 335px;
+}
+
+.posters {
+  max-height: 250px;
+  min-height: 250px;
+}
+
+.resultText {
+  max-width: 80%;
+}

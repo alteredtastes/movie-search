@@ -1,0 +1,10 @@
+<div>
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-3 movieRow center-block"  ng-repeat="result in movie.results">
+      <img src="{{result.Poster}}" alt="image not found!" class="posters"/>
+      <div class="resultText text-center">
+        <p>{{result.Title}} ({{result.Year}})</p>
+      </div>
+    </div>
+  </div>
+</div>
